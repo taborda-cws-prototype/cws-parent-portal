@@ -1,4 +1,4 @@
-Prototype URL [https://parentportal.tabordasolutions.net](https://parentportal.tabordasolutions.net)
+Prototype URL: <a href="https://parentportal.tabordasolutions.net" target="_blank">https://parentportal.tabordasolutions.net</a>
 
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*

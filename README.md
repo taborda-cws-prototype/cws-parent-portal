@@ -3,7 +3,7 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*
 
-Our team utilized an “outside-in” product development approach for the ADPQ prototype application. An “outside-in” approach focuses on end user’s needs and experience to drive features along with supporting application program interfaces (API). Focusing on the end user, means that their needs are implementing pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
+Our team utilized an “outside-in” product development approach for the ADPQ prototype application. An “outside-in” approach focuses on end user’s needs and experience to drive features along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
 
 * Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept.
 * Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision).
@@ -41,7 +41,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 8. Agile Coach – Gregg Hill, CSM
 
 # User Interaction *(2c)*
-We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Full details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
+We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered design *(2d)*
 ### Inspiration

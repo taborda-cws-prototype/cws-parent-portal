@@ -5,10 +5,10 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 
 Our team utilized an “outside-in” product development approach for the ADPQ prototype application. An “outside-in” approach focuses on end user’s needs and experience to drive features along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
 
-* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept.
-* Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision).
+* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept (2c).
+* Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision) (2g).
 * Identified user stories to form the initial product backlog. 
-* Developed initially fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users actually interacting with the application such as usability improvements were re-incorporated into the actual design.
+* Developed initially fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users actually interacting with the application such as usability improvements were re-incorporated into the actual design (2g).
 * Developed fully functioning prototype including back-end API for data persistence as a series of “vertical slices” to allow for testing throughout the effort.
 
 The “outside-in” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook (Playbook). 
@@ -26,7 +26,7 @@ Per the RFI, we followed all of the applicable Playbook plays for the prototype.
 
 # Taborda Prototype Team
 ## Team Leader *(2a)*
-Team leader with authority, responsibility, accountability for quality of prototype was Brendan McGuire.
+Taborda assigned Brendan McGuire as the one leader with authority, responsibility, accountability for quality of prototype.
 
 ## Product Development Team *(2b)*
 Multi-disciplinary and collaborative team includes eight (8) labor categories:
@@ -40,10 +40,10 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 7. DevOps Engineer – Chris O'Meara, CSM
 8. Agile Coach – Gregg Hill, CSM
 
-# User Interaction *(2c)*
+# Understanding of User Needs*(2c)*
 We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
-## Human-Centered design *(2d)*
+## Human-Centered Design *(2d)*
 ### Inspiration
 
 * Developed **Design Challenge**: "*How might we implement a modern, convenient app for parents to communicate with case workers and easily access resources?*"
@@ -74,8 +74,8 @@ We employed Human-Centered Design (HCD) to elicit user requirements that ultimat
 * Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/hi-fi-mockups) - using wireframes / user testing feedback *(2g)*
 * Conducted mockup prototype user tests; gathered feedback *(2f)*
 * Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/SASS/CSS/HTML. DSG elements leveraged from HTML mockup / user testing feedback. *(2g)*
-* Conducted responsive design testing on desktop and mobile devices *(2h)*
-* Design element updates were made to DSG as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized *(2e )*
+* Conducted responsive design testing on desktop and mobile devices (iOS, Android) *(2h)*
+* Design element updates were made to DSG as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized *(2e)*
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) *(2g)*
 
@@ -111,7 +111,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements that ultimat
 	* Junit 4 (6/2016)
 	* Mockito (6/2016)
 
-#### Continuous Integration *(2i, 2l)*
+#### Continuous Integration *(2i, 2l, 2m)*
 Implemented Jenkins inside Docker container on AWS for automated testing as code is checked in to GitHub.
 
 * Configuration Management - GitHub
@@ -150,7 +150,7 @@ Deployment in Docker container.
 [Deployment Docs](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Deployment-Documentation)
 
 ### Prototype / Underlying Platform Licensing *(2q)*
-Free / openly licensed
+The prototype and underlying platforms are open licensed and free of charge.
 
 # NOTES
 

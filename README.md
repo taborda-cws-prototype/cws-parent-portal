@@ -1,4 +1,4 @@
-Prototype URL: <a href="https://parentportal.tabordasolutions.net" target="_blank">https://parentportal.tabordasolutions.net</a>
+Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.tabordasolutions.net)
 
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*
@@ -62,8 +62,8 @@ We employed Human-Centered Design (HCD) to elicit user requirements that ultimat
 	* [Create Profile](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Create-Profile)
 	* [Log In / Register](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Log-in-or-Register)
 	* [Update/View Profile](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-View-or-Update-Profile)
-	* [View Foster Family Agencies in Zip](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Find-Foster-Agencies-in-Zip)
-	* [Send/Reply to Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Send-or-Reply-to-Message)
+	* [View Foster Family Agencies in Zip](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-View-Foster-Agencies-in-Zip)
+	* [Send/Reply to Message](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Send-or-Reply-to-Message)
 	* [Receive Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Receive-Messages)
 * Brainstormed designs during internal & user [whiteboard sessions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/whiteboard) *(2c)*
 * Updated user stories elaborations surfaced, including acceptance criteria *(2g)*

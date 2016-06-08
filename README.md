@@ -1,4 +1,4 @@
-Prototype URL: <a href="https://parentportal.tabordasolutions.net" target="_blank">https://parentportal.tabordasolutions.net</a>
+Prototype URL [https://parentportal.tabordasolutions.net](https://parentportal.tabordasolutions.net)
 
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*
@@ -41,7 +41,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 8. Agile Coach – Gregg Hill, CSM
 
 # User Interaction *(2c)*
-We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/human-centered-design/HumanCenteredDesign%20Process.docx)
+We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Full details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered design *(2d)*
 ### Inspiration
@@ -59,12 +59,12 @@ We employed Human-Centered Design (HCD) to elicit user requirements that ultimat
 	* Case worker / children photos
 	* Print time-stamped case worker conversations  
 * Created [user stories](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/stories)
-	* [Create Profile](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/stories/CreateProfile.docx)
-	* [Log In](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/stories/ParentLogIn_Registration_Story.docx)
-	* [Update/View Profile](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/stories/UpdateViewProfile.docx)
-	* [View Foster Family Agency Locations](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/stories/ViewFosterAgencies.docx)
-	* [Send/Reply to Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/stories/SendReplyMessage.docx)
-	* [Receive Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/stories/ReceiveMessage.docx)
+	* [Create Profile](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Create-Profile)
+	* [Log In / Register](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Log-in-or-Register)
+	* [Update/View Profile](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-View-or-Update-Profile)
+	* [View Foster Family Agencies in Zip](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Find-Foster-Agencies-in-Zip)
+	* [Send/Reply to Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Send-or-Reply-to-Message)
+	* [Receive Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Receive-Messages)
 * Brainstormed designs during internal & user [whiteboard sessions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/whiteboard) *(2c)*
 * Updated user stories elaborations surfaced, including acceptance criteria *(2g)*
 
@@ -158,5 +158,5 @@ Free / openly licensed
 
 * Some artifacts were checked in later due to infrastructure being built in parallel with the human-centered design process.
 
-* Insert content regarding testing
+* We developed unit tests during test-driven development, but only developed a sampling of unit/integration tests during defect fixes due to time constraints.
 

@@ -1,7 +1,17 @@
+Update URL[Prototype URL](https://www.tabordasolutions.net/)
+
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*
 
-Our team utilized an “outside-in” product development approach for the ADPQ prototype application. An “outside-in” approach focuses on end user’s needs and experience to drive features along with supporting application program interfaces (API). Focusing on the end user, means that their needs are implementing pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept.* Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision).* Identified user stories to form the initial product backlog. * Developed initially fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users actually interacting with the application such as usability improvements were re-incorporated into the actual design.* Developed fully functioning prototype including back-end API for data persistence as a series of “vertical slices” to allow for testing throughout the effort.The “outside-in” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook (Playbook). 
+Our team utilized an “outside-in” product development approach for the ADPQ prototype application. An “outside-in” approach focuses on end user’s needs and experience to drive features along with supporting application program interfaces (API). Focusing on the end user, means that their needs are implementing pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
+
+* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept.
+* Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision).
+* Identified user stories to form the initial product backlog. 
+* Developed initially fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users actually interacting with the application such as usability improvements were re-incorporated into the actual design.
+* Developed fully functioning prototype including back-end API for data persistence as a series of “vertical slices” to allow for testing throughout the effort.
+
+The “outside-in” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook (Playbook). 
 
 
 ## Architecture

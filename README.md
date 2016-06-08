@@ -1,4 +1,4 @@
-Update URL[Prototype URL](https://www.tabordasolutions.net/)
+Prototype URL: (https://parentportal.tabordasolutions.net)
 
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*

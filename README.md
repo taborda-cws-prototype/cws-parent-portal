@@ -3,12 +3,12 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*
 
-Our team utilized an “outside-in” product development approach for the ADPQ prototype application. An “outside-in” approach focuses on end user’s needs and experience to drive features along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
+Our team utilized an “outside-in” product development approach for the Agile Development Pre-Qualified (ADPQ) prototype application. An “outside-in” approach focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
 
 * Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept (2c).
 * Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision) (2g).
 * Identified user stories to form the initial product backlog. 
-* Developed initially fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users actually interacting with the application such as usability improvements were re-incorporated into the actual design (2g).
+* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were re-incorporated into the final design (2g).
 * Developed fully functioning prototype including back-end API for data persistence as a series of “vertical slices” to allow for testing throughout the effort.
 
 The “outside-in” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook (Playbook). 
@@ -26,7 +26,7 @@ Per the RFI, we followed all of the applicable Playbook plays for the prototype.
 
 # Taborda Prototype Team
 ## Team Leader *(2a)*
-Taborda assigned Brendan McGuire as the one leader with authority, responsibility, accountability for quality of prototype.
+Taborda assigned Brendan McGuire as the one leader with authority, responsibility, and accountability for quality of the prototype.
 
 ## Product Development Team *(2b)*
 Multi-disciplinary and collaborative team includes eight (8) labor categories:
@@ -41,7 +41,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 8. Agile Coach – Gregg Hill, CSM
 
 # Understanding of User Needs*(2c)*
-We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
+We employed a Human-Centered Design (HCD) approach to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered Design *(2d)*
 ### Inspiration

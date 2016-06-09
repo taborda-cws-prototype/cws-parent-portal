@@ -33,7 +33,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 
 1. Product Owner – Brendan McGuire, CSM
 2. Technical Architect – Rich Bach, CSM
-3. Interaction Designer/User Researcher/Usability Tester – Lacy Carter, CPO
+3. Interaction Designer/User Researcher/Usability Tester – Lacy Carter, CSPO
 4. Visual Designer – Husam Alrubaye
 5. Front End Web Developer – Justin Castillo, Husam Alrubaye
 6. Back End Web Developer – Tom Parker

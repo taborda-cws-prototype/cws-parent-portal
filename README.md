@@ -143,7 +143,7 @@ Implemented the following monitoring:
 
 * NodePing validates application availability every 3 minutes from multiple locations in the U.S. and alerts the Taborda operations team if there is any disruption to service availability.
 * Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues before those issues impact availability.
-* PagerDuty delivery alerts to the Taborda operations team according to a 24x7 duty schedule.
+* PagerDuty delivers alerts to the Taborda operations team according to a 24x7 duty schedule.
 
 ### Containerization *(2o)*
 Deployment in Docker container.

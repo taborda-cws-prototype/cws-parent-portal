@@ -91,7 +91,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements that ultimat
 	* Font-Awesome (5/2016)
 	* JSON Web Token (5/2015)
 	* WAVE (3/2016)
-* Web Server – NGINX
+	* Web Server – NGINX
 * Back end
 	* Java (6/2016)
 	* Dropwizard (5/2016)
@@ -139,7 +139,9 @@ The GitHub Repository is organized as:
 	* [Containers](https://github.com/taborda-cws-prototype/docker)
 
 ### Continuous Monitoring *(2n)*
-Datadog continuously monitors real-time system resources/performance, and sends automated alerts to the Taborda DevOps Team.
+NodePing validates application availability every 3 minutes from multiple locations in the U.S. and alerts the Taborda operations team if there is any disruption to service availability.
+Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues before those issues impact availability.
+PagerDuty delivery alerts to the Taborda operations team according to a 24x7 duty schedule.
 
 ### Containerization *(2o)*
 Deployment in Docker container.

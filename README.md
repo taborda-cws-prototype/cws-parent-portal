@@ -44,6 +44,9 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 We employed a Human-Centered Design (HCD) approach to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered Design *(2d)*
+
+As part of our HCD process, our team leveraged the following techniques.
+
 ### Inspiration
 
 * Developed **Design Challenge**: "*How might we implement a modern, convenient app for parents to communicate with case workers and easily access resources?*"
@@ -112,7 +115,7 @@ We employed a Human-Centered Design (HCD) approach to elicit user requirements t
 	* Mockito (6/2016)
 
 #### Continuous Integration *(2i, 2l, 2m)*
-Implemented Jenkins inside Docker container on AWS for automated testing as code is checked in to GitHub.
+Implemented Jenkins inside Docker container on Amazon Web Servies (AWS) for automated testing as code is checked in to GitHub.
 
 * Configuration Management - GitHub
 * Continuous Integration, Automated Testing / Deployment - Jenkins (6/2016)
@@ -129,7 +132,7 @@ The prototype deployed to AWS (FedRAMP-certified IaaS).
 [Infrastructure Architecture](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Infrastructure-Architecture)
 
 
-#### Configuration Management *(2m)*
+#### Configuration Management *(2n)*
 The GitHub Repository is organized as:
 
 * [Taborda CWS Prototype](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation)
@@ -138,22 +141,22 @@ The GitHub Repository is organized as:
 	* [Artifacts](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation)
 	* [Containers](https://github.com/taborda-cws-prototype/docker)
 
-### Continuous Monitoring *(2n)*
+### Continuous Monitoring *(2o)*
 Implemented the following monitoring:
 
 * NodePing validates application availability every 3 minutes from multiple locations in the U.S. and alerts the Taborda operations team if there is any disruption to service availability.
 * Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues before those issues impact availability.
 * PagerDuty delivers alerts to the Taborda operations team according to a 24x7 duty schedule.
 
-### Containerization *(2o)*
+### Containerization *(2p)*
 Deployment in Docker container.
 
-### Deployment Documentation *(2p)*
+### Deployment Documentation *(2q)*
 ***Insert one sentence here***
 
 [Deployment Docs](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Deployment-Documentation)
 
-### Prototype / Underlying Platform Licensing *(2q)*
+### Prototype / Underlying Platform Licensing *(2r)*
 The prototype and underlying platforms are open licensed and free of charge.
 
 # NOTES

@@ -45,7 +45,7 @@ We employed Human-Centered Design (HCD) to elicit user requirements to form the 
 
 ## Human-Centered Design *(2d)*
 
-Our HCD process leveraged the following techniques:
+[Our HCD process](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process) leveraged the following techniques:
 
 ### Inspiration
 

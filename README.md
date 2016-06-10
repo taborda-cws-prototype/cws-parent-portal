@@ -157,5 +157,4 @@ Deployment in Docker container.
 ### Prototype / Underlying Platform Licensing *(2r)*
 The prototype and underlying platforms are open licensed and free of charge.
 
-### Notes and Assumptions
-Please see our [Notes and Assumptions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Notes-and-Assumptions) page.
+### [Notes and Assumptions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Notes-and-Assumptions)

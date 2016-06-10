@@ -12,7 +12,7 @@ Share findings with the team and agency leadership |	Feedback was captured and p
 Create a prioritized list of tasks the user is trying to accomplish, also known as "user stories"	| The product owner developed user stories from the feedback gathered during ideation. These were used to form the prioritized product backlog. *(2c)*
 As the digital service is being built, regularly test it with potential users to ensure it meets people’s needs |	Periodic user testing of wireframes, early functioning prototypes, and iteration increments was conducted. We used low and high fidelity prototypes iteratively, with user testing between iterations. *(2f)*
 **Key Questions** |**Answers**
-Who are your primary users?	| Parents interacting with Child Protective Services (CPS)
+Who are your primary users?	| Parents interacting with Child Protective Services (CPS). We added a "test harness" to create CPS worker accounts in the system to demonstrate the abilty to send and recieve messages within the prototype.
 What user needs will this service address? |	Provide tools for parents to communicate with case workers and easily access resources.
 Why does the user want or need this service? |	Parents are understandably anxious about interacting with CPS and this application provides a less-intimidating interaction with case workers and the CPS process.
 Which people will have the most difficulty with the service? | People with little or no computer experience
@@ -29,7 +29,7 @@ Understand the different points at which people will interact with the service �
 Identify pain points in the current way users interact with the service, and prioritize these according to user needs | Currently there is no online interaction between parents and case workers, which causes unnecessary delays in communication. *(2c)*
 Design the digital parts of the service so that they are integrated with the offline touch points people use to interact with the service | One example is our inclusion of print functionality for messages and agency locations so users can take printed copies with them to the agency facility (if they don't have a mobile device).
 **Key Questions** |**Answers**
-What are the different ways (both online and offline) that people currently accomplish the task the digital service is designed to help with? | Telephone; in-person (scheduled and unscheduled)
+What are the different ways (both online and offline) that people currently accomplish the task the digital service is designed to help with? | We conducted in person user interviews with an actual CPS worker and staff that were not participating in the prototype develop effort to represent Parent users of the system.
 Where are user pain points in the current way people accomplish the task? | Time delays in communications; lack of records relating to communications
 Where does this specific project fit into the larger way people currently obtain the service being offered?	| It modernizes a communication channel between parents and case workers
 What metrics will best indicate how well the service is working for its users? | User feedback; user satisfaction; adoption rates
@@ -102,37 +102,37 @@ Member(s) of the team have experience securing digital services | Our team membe
 :------------- |:-------------
 Choose software frameworks that are commonly used by private-sector companies creating similar services | We selected modern open source frameworks and tools (Angular.js, Bootstrap, Java, Jersey, Jackson, Hibernate ORM, PostreSQL).  *(2i)* 
 Whenever possible, ensure that software can be deployed on a variety of commodity hardware types| Our prototype is deployed in Linux/Docker - it will deploy the same on a variety of hardware platforms. The UI was developed and tested to work on multipe devices using a responsive design. *(2h)* 
-Ensure that each project has clear, understandable instructions for setting up a local development environment, and that team members can be quickly added or removed from projects | We developed clear and understandable setup and deployment instructions.
-Consider open source software solutions at every layer of the stack | Our entire applicaiotn stack is open source. *(2i)* 
+Ensure that each project has clear, understandable instructions for setting up a local development environment, and that team members can be quickly added or removed from projects | We developed clear and understandable setup and deployment instructions. The deployment process is simplified using Docker Composer.
+Consider open source software solutions at every layer of the stack | Our entire application stack is open source. *(2i)* 
 **Key Questions** |**Answers**
 What is your development stack and why did you choose it? | Our stack is: Bootstrap, Javascript, Angular, jQuery, SASS, Font-awesome, JAWT, Guava, Gulp, WAVE, NGINX, Java, Dropwizard, Jetty, Jersey, Jackson, Hibernate ORM, Gradle, Flyway, PostgreSQL, GitHub, Jenkins, Docker, Protractor, Jasmine, Junit 4, and Mockito.
-Which databases are you using and why did you choose them? | PostgreSQL
-How long does it take for a new team member to start developing? | Less than an hour
+Which databases are you using and why did you choose them? | We selected PostgreSQL due its large feature base and open source licensing. We elected to utilize a RDBMS as this data structure is conducive for both application functions and reporting needs typically encountered within HHS based applications.
+How long does it take for a new team member to start developing? | Less than an hour.
 
 ## Play 9: Deploy in a flexible hosting environment
 We deployed to Amazon Web Services (AWS), which supports all of these aspects.  *(2j)*
 
 **Checklist** |**What we did**
 :------------- |:-------------
-Resources are provisioned on demand | AWS
-Resources scale based on real-time user demand | AWS 
-Resources are provisioned through an API | AWS
-Resources are available in multiple regions| AWS
-We only pay for resources we use | AWS
-Static assets are served through a content delivery network | AWS
-Application is hosted on commodity hardware| AWS
+Resources are provisioned on demand | Resources are provisioned in our IaaS through a console and API.
+Resources scale based on real-time user demand |  Through the use of the AWS load balancer auto-scaling to meet real-time user demand can be configured. 
+Resources are provisioned through an API | Our continuous integration automation integrates with AWS API for provisioning and configuration.
+Resources are available in multiple regions| Our prototype application is deployed in an AWS environment in Oregon. The data center has access points in numerous locations across the United States for WAN performance. In an actual production deployment resources can be deployed to multiple regions (data center) depending on availability requirements.
+We only pay for resources we use | Our environment costs are based on per minute metering. Resources can be quickly scaled up or down depending on operating and development environment needs.
+Static assets are served through a content delivery network | We did not configure a content delivery network (CDN) for the prototype due to the low user load. Amazon AWS provides for the deployment of a CDN through its numerous edge network points.
+Application is hosted on commodity hardware| AWS utilizes an underlying commodity hardware based infrastructure. Our Linux and Docker based deployment allows deployment on commodity hardware and desktop platorms.
 **Key Questions** |**Answers**
-Where is your service hosted? | Amazon Web Services (AWS)
-What hardware does your service use to run? | All Virtual Servers; IaaS abstracts underlying hardware 
+Where is your service hosted? | The prototype is hosted in Amazon Web Services (AWS) US-EST-2 (Oregon) data center.
+What hardware does your service use to run? | As an IaaS consumers are abstracted from the underlying hardware. AWS utilizes engineered infrastructure based on commodity servers.
 What is the demand or usage pattern for your service? | TBD in future sprint(s)
-What happens to your service when it experiences a surge in traffic or load? | Autoscales
-How much capacity is available in your hosting environment? | Virtually unlimited
+What happens to your service when it experiences a surge in traffic or load? | In an actual production environment, we would configure auto-scaling to add server during a surge and remove them as workload is reduced.
+How much capacity is available in your hosting environment? | AWS provides an extremely large capacity within reach Region (data center). Large scale applications (e.g. NetFlix) utilize AWS. Amazon also provides for scalability by deploying application across Regions.
 How long does it take you to provision a new resource, like an application server? | Minutes
 How have you designed your service to scale based on demand? | Datadog monitoring triggers autoscaling when predertimined thresholds are reached
 How are you paying for your hosting infrastructure (e.g., by the minute, hourly, daily, monthly, fixed)? | Metered by minute
 Is your service hosted in multiple regions, availability zones, or data centers? | Multiple availability zones: US-WEST-2B & US-WEST-2C
 In the event of a catastrophic disaster to a datacenter, how long will it take to have the service operational? | A single datacenter outage will not affect the operation of the application
-What data redundancy do you have built into the system, and what would be the impact of a catastrophic data loss? | Clustered *RDS*???
+What data redundancy do you have built into the system, and what would be the impact of a catastrophic data loss? | Our PostgreSQL database is replicated across AWS Availability Zones via the Relational Database Services. Failure of a single Availability Zone does not affect system availabilty or create data loss.
 How often do you need to contact a person from your hosting provider to get resources or to fix an issue? | Resources are provisioned through a self-service portal and autoscaling. Fix support support is available as needed, but has not been necessary in our experience.
 
 ## Play 10: Automate testing and deployments 
@@ -142,27 +142,27 @@ Create automated tests that verify all user-facing functionality | We used Test 
 Create unit and integration tests to verify modules and components | Both automated unit and integration tests are included in our continuous integration process (Jenkins). *(2l)*
 Run tests automatically as part of the build process | Jenkins automatically executes unit and integration tests as part of the build process  *(2l)*
 Perform deployments automatically with deployment scripts, continuous delivery services, or similar techniques	| Jenkins automatically deploys successful builds
-Conduct load and performance tests at regular intervals, including before public launch	| TBD in future sprint(s)
+Conduct load and performance tests at regular intervals, including before public launch	| In an actual production project, we would incorporpate performance/load testing in our continuous integration pipeline.
 **Key Questions** |**Answers**
-What percentage of the code base is covered by automated tests? | ???
+What percentage of the code base is covered by automated tests? | All of the user interface and API is covered by unit tests. In an actual production effort, we would create additional automated tests to address more complex testing scenarios. Our TDD based practice used on projects incrementally expands our library of tests over time.
 How long does it take to build, test, and deploy a typical bug fix? | Minutes
 How long does it take to build, test, and deploy a new feature into production?| 1 sprint
-How frequently are builds created?	Each commit; Many times each day | Many times each day
+How frequently are builds created?	Each commit; Many times each day | Many times each day. Over our 15 day development cycle we completed over 120 builds.
 What test tools are used?	| Protractor; Jasmine; Junit 4; Mockito; WAVE
 Which deployment automation or continuous integration tools are used? | Jenkins; Docker
 What is the estimated maximum number of concurrent users who will want to use the system| Targeting 200 for prototype purposes
-How many simultaneous users could the system handle, according to the most recent capacity test? | TBD in future sprint(s)
-How does the service perform when you exceed the expected target usage volume? Does it degrade gracefully or catastrophically?	| TBD in future sprint(s), but autoscaling should provide seamless transition
+How many simultaneous users could the system handle, according to the most recent capacity test? | Due to limited time we did not conduct performance/load testing. In an actual production project we incorporate performance/load testing into our continuous integration pipelines. Our application is deployed over mulitple virtual servers and will scale beyond the anticipated load generated during the prototype evaluation.
+How does the service perform when you exceed the expected target usage volume? Does it degrade gracefully or catastrophically?	| Our infrastructure architecture supports auto-scaling of the underlying servers. Additionally, thresholds are in place to preserve a percentage of capacity during rolling deployments of the application.
 What is your scaling strategy when demand increases suddenly| When Datadog monitoring detects demand has hit predetermined threshold, triggers AWS to scale up more capacity
 
 ## Play 11: Manage security and privacy through reusable processes
 **Checklist** |**What we did**
 :------------- |:-------------
-“Pre-certify” the hosting infrastructure used for the project using FedRAMP | AWS is FedRAMP certified. *(2j)*
+“Pre-certify” the hosting infrastructure used for the project using FedRAMP | AWS is FedRAMP certified. Our prototype also implemented application security using JSON Web Tokens. In an actual production application additional security measures would be taken including additional application security controls, data encryption and security event monitoring. *(2j)*
 **Key Questions** |**Answers**
-Does the service collect personal information from the user? How is the user notified of this collection? |	Yes: Name and Email for registration purposes; Web form 
+Does the service collect personal information from the user? How is the user notified of this collection? |	Yes: Name and Email for registration purposes via a web form. In an actual production system a statement regarding the collection and safeguarding that is approved by the State of California would be included in the Profile page. 
 Does it collect more information than necessary? Could the data be used in ways an average user wouldn't expect?	| No; No
-How does a user access, correct, delete, or remove personal information? | Web page to manage profile
+How does a user access, correct, delete, or remove personal information? | Users have the ability to create and update PII. In actual production system a feature would be created allowing users to request purge of their account.
 Will any of the personal information stored in the system be shared with other services, people, or partners? | No
 
 ## Play 12: Use data to drive decisions 

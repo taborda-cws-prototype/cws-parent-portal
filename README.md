@@ -11,7 +11,7 @@ Our team utilized an “*outside-in*” product development approach for the Agi
 * Developed fully interactive prototype web/mobile application. The initial prototype was presented to the representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were incorporated into the final design (2g).
 * Developed fully functioning prototype including back end API for data persistence as a series of “*vertical slices*” allowing testing throughout the effort.
 
-The “*outside-in*” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook [Playbook](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/us-digital-services-playbook/us-digital-services-playbook-details.md). 
+The “*outside-in*” product development approach [incorporates the application development aspects of the U.S. Digital Services Playbook ](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/us-digital-services-playbook/us-digital-services-playbook-details.md). 
 
 
 ## Architecture

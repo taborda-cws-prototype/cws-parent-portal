@@ -26,7 +26,7 @@ We followed all of the applicable Playbook plays. [Details here](https://github.
 
 # Taborda Prototype Team
 ## Team Leader *(2a)*
-Taborda assigned Brendan McGuire as the one leader with authority, responsibility, and accountability for quality of the prototype.
+Taborda assigned Brendan McGuire as the one leader with authority, responsibility, and accountability for prototype quality.
 
 ## Product Development Team *(2b)*
 Multi-disciplinary and collaborative team includes eight (8) labor categories:

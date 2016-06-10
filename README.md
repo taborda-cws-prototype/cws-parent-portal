@@ -3,7 +3,7 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 ## Taborda - ADPQ Prototype
 # Technical Approach *(2)*
 
-Our team utilized an “*outside-in*” product development approach for the Agile Development Pre-Qualified (ADPQ) prototype. “*Outside-in*” focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and adoption through continuous interaction/feedback.  Our team utilized the following approach for this prototype:
+Our team utilized an “*outside-in*” product development approach to create our ADPQ prototype. “*Outside-in*” focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and adoption through continuous interaction/feedback.  Our team utilized the following approach for this prototype:
 
 * Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker, along with people acting as the identified personas (parent/guardian) to create the initial application concept (2c).
 * Created initial UI documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated UI design (InVision) (2g).

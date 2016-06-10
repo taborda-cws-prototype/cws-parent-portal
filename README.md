@@ -134,10 +134,10 @@ The prototype deployed to AWS (FedRAMP-certified IaaS).
 The GitHub Repository is organized as:
 
 * [Taborda CWS Prototype](https://github.com/taborda-cws-prototype/cws-parent-portal)
-	* [Back End API](https://github.com/taborda-cws-prototype/cws-parent-portal-api)
-	* [Front End UI](https://github.com/taborda-cws-prototype/cws-parent-portal-ui)
-	* [Artifacts](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation)
-	* [Containers](https://github.com/taborda-cws-prototype/docker)
+
+Additional repositories were utilized to support CI pipelines and are available below:
+
+[CI Repositories](https://github.com/taborda-cws-prototype/cws-parent-portal/wiki/GitHub-Repository)
 
 ### Continuous Monitoring *(2o)*
 Implemented the following monitoring:

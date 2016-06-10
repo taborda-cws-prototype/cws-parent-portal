@@ -3,26 +3,26 @@ Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.
 ## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
 # Technical Approach *(2)*
 
-Our team utilized an “outside-in” product development approach for the Agile Development Pre-Qualified (ADPQ) prototype application. An “outside-in” approach focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes end user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
+Our team utilized an “*outside-in*” product development approach for the Agile Development Pre-Qualified (ADPQ) prototype. An “*outside-in*” approach focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
 
-* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker and people acting as the identified personas (parent/guardian) to create the initial application concept (2c).
+* Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker, along with people acting as the identified personas (parent/guardian) to create the initial application concept (2c).
 * Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision) (2g).
-* Identified user stories to form the initial product backlog. 
-* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the same representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were re-incorporated into the final design (2g).
-* Developed fully functioning prototype including back-end API for data persistence as a series of “vertical slices” to allow for testing throughout the effort.
+* Identified user stories to form initial product backlog. 
+* Developed fully interactive prototype web/mobile application. The initial prototype was presented to the representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were incorporated into the final design (2g).
+* Developed fully functioning prototype including back end API for data persistence as a series of “*vertical slices*” allowing testing throughout the effort.
 
-The “outside-in” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook (Playbook). 
+The “*outside-in*” product development approach incorporates the application development aspects of the U.S. Digital Services Playbook [Playbook](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/us-digital-services-playbook/us-digital-services-playbook-details.md). 
 
 
 ## Architecture
 
-Our protoype's high level architecture is based on a JavaScript based front end (Angular.js) supported by Java based API (Dropwizard) with a PostgreSQL database.
+The high level architecture is based on a JavaScript-based front end (Angular.js) supported by Java API (Dropwizard) with a PostgreSQL database.
 
 [Application Architecture](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Application-Architecture)
 
 # Adherence to U.S. Digital Services Playbook *(2)*
 
-Per the RFI, we followed all of the applicable Playbook plays for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/us-digital-services-playbook/us-digital-services-playbook-details.md).
+We followed all of the applicable Playbook plays. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/blob/master/us-digital-services-playbook/us-digital-services-playbook-details.md).
 
 # Taborda Prototype Team
 ## Team Leader *(2a)*
@@ -41,11 +41,11 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 8. Agile Coach – Gregg Hill, CSM
 
 # Understanding of User Needs*(2c)*
-We employed a Human-Centered Design (HCD) approach to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
+We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered Design *(2d)*
 
-As part of our HCD process, our team leveraged the following techniques.
+Our HCD process leveraged the following techniques:
 
 ### Inspiration
 
@@ -69,16 +69,16 @@ As part of our HCD process, our team leveraged the following techniques.
 	* [Send/Reply to Message](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Send-or-Reply-to-Message)
 	* [Receive Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Receive-Messages)
 * Brainstormed designs during internal & user [whiteboard sessions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/whiteboard) *(2c)*
-* Updated user stories elaborations surfaced, including acceptance criteria *(2g)*
+* Updated user stories as elaborations surfaced, including acceptance criteria *(2g)*
 
 ### Implementation
-* Developed [Balsamiq low-fi wireframes](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/wireframes) - using whiteboard designs & feedback from internal/user testing *(2g)*
+* Developed [Balsamiq low-fi wireframes](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/wireframes) - using whiteboard designs & feedback from internal / user testing *(2g)*
 * Conducted user tests and gathered feedback *(2f)*
 * Developed [PhotoShop/InVision high-fi web mockup prototype](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/hi-fi-mockups) - using wireframes / user testing feedback *(2g)*
 * Conducted mockup prototype user tests; gathered feedback *(2f)*
-* Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/SASS/CSS/HTML. DSG elements leveraged from HTML mockup / user testing feedback. *(2g)*
-* Conducted responsive design testing on desktop and mobile devices (iOS, Android) *(2h)*
-* Design element updates were made to DSG as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized *(2e)*
+* Developed live [Design Style Guide (DSG)](https://parentportal.tabordasolutions.net/guidelines.html) using bootstrap/SASS/CSS/HTML. DSG elements leveraged HTML mockup / user testing feedback. *(2g)*
+* Conducted responsive design testing on desktop (Mac, PC) and mobile devices (iOS, Android) *(2h)*
+* Updated DSG Design elements as prototype was elaborated – keeping DSG and prototype pages consistent and synchronized *(2e)*
 * Developed prototype HTML using HTML mockup, user testing feedback, and DSG
 * Iterated on pages, incorporating user testing feedback between iterations, finally reaching minimal viable product (MVP) *(2g)*
 
@@ -144,16 +144,14 @@ The GitHub Repository is organized as:
 ### Continuous Monitoring *(2o)*
 Implemented the following monitoring:
 
-* NodePing validates application availability every 3 minutes from multiple locations in the U.S. and alerts the Taborda operations team if there is any disruption to service availability.
-* Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues before those issues impact availability.
+* NodePing validates application availability every 3 minutes from multiple U.S. locations and alerts the Taborda operations team of any service availability disruption.
+* Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues before any availability impact.
 * PagerDuty delivers alerts to the Taborda operations team according to a 24x7 duty schedule.
 
 ### Containerization *(2p)*
 Deployment in Docker container.
 
 ### Deployment Documentation *(2q)*
-***Insert one sentence here***
-
 [Deployment Docs](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Deployment-Documentation)
 
 ### Prototype / Underlying Platform Licensing *(2r)*

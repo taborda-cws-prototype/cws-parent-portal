@@ -116,7 +116,7 @@ Our HCD process leveraged the following techniques:
 Implemented Jenkins inside Docker container on AWS for automated testing as code is checked in to GitHub.
 
 * Configuration Management - GitHub
-* Continuous Integration Automation - Jenkins (6/2016)
+* Continuous Integration Automation - Jenkins [CI Screenshots] (https://github.com/taborda-cws-prototype/cws-parent-portal/wiki/Continuous-Integration) (6/2016)
 * Build
 	* Front end – Gulp (6/2016)
 	* Back end – Gradle (6/2016)

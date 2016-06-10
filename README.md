@@ -1,5 +1,7 @@
 Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.tabordasolutions.net)
 
+[User Guide](https://github.com/taborda-cws-prototype/cws-parent-portal/wiki/Parent-Portal-Prototype-User-Guide)
+
 ## Taborda - ADPQ Prototype
 # Technical Approach *(2)*
 

@@ -1,12 +1,12 @@
 Prototype URL: [https://parentportal.tabordasolutions.net](https://parentportal.tabordasolutions.net)
 
-## Taborda - Agile Development Pre-Qualified Vendor Pool Prototype
+## Taborda - ADPQ Prototype
 # Technical Approach *(2)*
 
-Our team utilized an “*outside-in*” product development approach for the Agile Development Pre-Qualified (ADPQ) prototype. An “*outside-in*” approach focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and system adoption through continuous interaction and feedback.  At a high level, our team utilized the following approach for this prototype:
+Our team utilized an “*outside-in*” product development approach for the Agile Development Pre-Qualified (ADPQ) prototype. “*Outside-in*” focuses on the end user’s needs and experience to drive features, along with supporting application program interfaces (API). Focusing on the end user means that their needs are implemented pervasively throughout the application. This practice promotes user satisfaction and adoption through continuous interaction/feedback.  Our team utilized the following approach for this prototype:
 
 * Conducted user research to understand needs and trends within related industry. Our User Researcher conducted user interviews with a current CPS worker, along with people acting as the identified personas (parent/guardian) to create the initial application concept (2c).
-* Created initial user interface documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated user interface design (InVision) (2g).
+* Created initial UI documented as wireframes (Balsamiq) which were presented to both CPS workers and staff members representing the personas associated with the system. Feedback was incorporated into an updated UI design (InVision) (2g).
 * Identified user stories to form initial product backlog. 
 * Developed fully interactive prototype web/mobile application. The initial prototype was presented to the representative user base from the user research phase. The findings from users interacting with the application, such as usability improvements, were incorporated into the final design (2g).
 * Developed fully functioning prototype including back end API for data persistence as a series of “*vertical slices*” allowing testing throughout the effort.
@@ -16,7 +16,7 @@ The “*outside-in*” product development approach [incorporates the applicatio
 
 ## Architecture
 
-The high level architecture is based on a JavaScript-based front end (Angular.js) supported by Java API (Dropwizard) with a PostgreSQL database.
+Our architecture is based on JavaScript (Angular.js) with a Java API (Dropwizard) and PostgreSQL database.
 
 [Application Architecture](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Application-Architecture)
 
@@ -41,7 +41,7 @@ Multi-disciplinary and collaborative team includes eight (8) labor categories:
 8. Agile Coach – Gregg Hill, CSM
 
 # Understanding of User Needs*(2c)*
-We employed Human-Centered Design (HCD) to elicit user requirements that ultimately became the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
+We employed Human-Centered Design (HCD) to elicit user requirements to form the Product Backlog. The section below summarizes our HCD process for the prototype. [Details here](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Human-Centered-Design-Process)
 
 ## Human-Centered Design *(2d)*
 
@@ -69,7 +69,7 @@ Our HCD process leveraged the following techniques:
 	* [Send/Reply to Message](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Send-or-Reply-to-Message)
 	* [Receive Messages](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/User-Story:-Receive-Messages)
 * Brainstormed designs during internal & user [whiteboard sessions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/whiteboard) *(2c)*
-* Updated user stories as elaborations surfaced, including acceptance criteria *(2g)*
+* Updated user stories elaborations, including acceptance criteria *(2g)*
 
 ### Implementation
 * Developed [Balsamiq low-fi wireframes](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/tree/master/wireframes) - using whiteboard designs & feedback from internal / user testing *(2g)*
@@ -84,7 +84,7 @@ Our HCD process leveraged the following techniques:
 
 ## Prototype Development
 ### Modern Open Source Technologies *(2i)*
-#### All Open Source Solution Components (Build dates in parens) 
+#### All Open Source Solution Components with Build Dates
 * Front end
 	* Bootstrap (5/2016)
 	* Javascript
@@ -101,9 +101,7 @@ Our HCD process leveraged the following techniques:
 	* Jetty – Web Server (6/2016)
 	* Jersey – RESTful web services (6/2016)
 	* Jackson – JSON Processor (5/2016)
-	* Guava (5/2016)
 	* Hibernate ORM (4/2016)
-	* Flyway (5/2016)
 * Database – PostgreSQL
 	
 #### Automated Unit Testing *(2k)*
@@ -115,10 +113,10 @@ Our HCD process leveraged the following techniques:
 	* Mockito (6/2016)
 
 #### Continuous Integration *(2i, 2l, 2m)*
-Implemented Jenkins inside Docker container on Amazon Web Servies (AWS) for automated testing as code is checked in to GitHub.
+Implemented Jenkins inside Docker container on AWS for automated testing as code is checked in to GitHub.
 
 * Configuration Management - GitHub
-* Continuous Integration, Automated Testing / Deployment - Jenkins (6/2016)
+* Continuous Integration Automation - Jenkins (6/2016)
 * Build
 	* Front end – Gulp (6/2016)
 	* Back end – Gradle (6/2016)
@@ -135,7 +133,7 @@ The prototype deployed to AWS (FedRAMP-certified IaaS).
 #### Configuration Management *(2n)*
 The GitHub Repository is organized as:
 
-* [Taborda CWS Prototype](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation)
+* [Taborda CWS Prototype](https://github.com/taborda-cws-prototype/cws-parent-portal)
 	* [Back End API](https://github.com/taborda-cws-prototype/cws-parent-portal-api)
 	* [Front End UI](https://github.com/taborda-cws-prototype/cws-parent-portal-ui)
 	* [Artifacts](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation)
@@ -144,8 +142,8 @@ The GitHub Repository is organized as:
 ### Continuous Monitoring *(2o)*
 Implemented the following monitoring:
 
-* NodePing validates application availability every 3 minutes from multiple U.S. locations and alerts the Taborda operations team of any service availability disruption.
-* Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues before any availability impact.
+* NodePing validates availability every 3 minutes and alerts the Taborda operations team of service availability disruption.
+* Datadog continuously monitors system resources and alerts the Taborda operations team of potential issues.
 * PagerDuty delivers alerts to the Taborda operations team according to a 24x7 duty schedule.
 
 ### Containerization *(2p)*

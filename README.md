@@ -159,11 +159,5 @@ Deployment in Docker container.
 ### Prototype / Underlying Platform Licensing *(2r)*
 The prototype and underlying platforms are open licensed and free of charge.
 
-# NOTES
-
-* The prototype implemented a simple authentication scheme that stores identity in the application database and passes the user token in response headers. A production-grade application  would implement SAML 2.0 or OATH solution with centralized user store decoupled from the application.
-
-* Some artifacts were checked in later due to infrastructure being built in parallel with the human-centered design process.
-
-* We developed unit tests during test-driven development, but only developed a sampling of unit/integration tests during defect fixes due to time constraints.
-
+### Notes and Assumptions
+Please see our [Notes and Assumptions](https://github.com/taborda-cws-prototype/cws-parent-portal-documentation/wiki/Notes-and-Assumptions) page.

@@ -137,7 +137,7 @@ The GitHub Repository is organized as:
 
 Additional repositories were utilized to support CI pipelines and are available below:
 
-[CI Repositories](https://github.com/taborda-cws-prototype/cws-parent-portal/wiki/GitHub-Repository)
+[GitHub Repositories](https://github.com/taborda-cws-prototype/cws-parent-portal/wiki/GitHub-Repository)
 
 ### Continuous Monitoring *(2o)*
 Implemented the following monitoring:
